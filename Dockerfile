@@ -29,4 +29,4 @@ ADD https://cdn.discordapp.com/attachments/630697376474071040/754995998711087104
 WORKDIR /usr/games/SRB2Kart
 
 # Run script
-ENTRYPOINT ["srb2kart.sh"]
+ENTRYPOINT ["srb2kart.sh -room 33 -password 1234"]
